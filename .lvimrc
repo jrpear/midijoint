@@ -1,0 +1,2 @@
+se tags+=~/.local/share/ctags/tags.lv2
+autocmd BufWritePost * silent !ctags -R --kinds-C='*'
