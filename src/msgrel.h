@@ -4,7 +4,7 @@
 #include <lv2/midi/midi.h>
 #include <stdint.h>
 
-#define REL_SIZE 2
+#define REL_SIZE 16
 
 typedef struct {
   uint8_t statchan;

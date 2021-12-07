@@ -96,8 +96,8 @@ static void run(LV2_Handle instance, uint32_t sample_count) {
           lv2_atom_sequence_append_event(self->ports.midi_out, out_capacity,
                                          &out_msg.ev);
         }
-        lv2_atom_sequence_append_event(self->ports.midi_out, out_capacity, ev);
       }
+      lv2_atom_sequence_append_event(self->ports.midi_out, out_capacity, ev);
     }
   }
 }
